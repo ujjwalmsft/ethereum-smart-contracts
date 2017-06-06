@@ -73,5 +73,5 @@ var contractDeployment = contract.new(_initVariable,{from:web3.eth.accounts[0], 
 ### Run functions
 *   Call functions (Read)
     * `contract.functionName(params);`
-*   Trasactional functions (Write)
+*   Transactional functions (Write)
     * `contract.functionName.sendTransaction(params, {from: eth.accounts[0]});`   
