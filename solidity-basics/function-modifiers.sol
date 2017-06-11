@@ -4,6 +4,7 @@ contract FunctionModifiers {
     // used to change the behavior of functions -> inherited by the contracts, can be overwritten
     //  e.g. check conditions before executing a function
     //      this can be done even before the function calls -> reject function call before executed (e.g. save gas)
+    //  The variables of the function are already in scope when calling the modifier
     address public creator;
     
     function FunctionModifiers () {

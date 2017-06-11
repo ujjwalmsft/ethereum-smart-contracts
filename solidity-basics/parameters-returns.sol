@@ -5,12 +5,12 @@ contract Parameters {
     uint public input1;
     uint public input2;
 
-    function Parameters (uint in1, uint in2) {
+    function Parameters (uint _in1, uint _in2) {
         input1 = in1;
         input2 = in2;
     }
 
-    function multiplyByThree (uint in1) returns (uint m3) {
+    function multiplyByThree (uint in1) returns (uint _m3) {
         // no return necessary, the assignment is enough
         m3 = 3 * in1;
     }

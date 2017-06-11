@@ -1,13 +1,13 @@
 pragma solidity ^0.4.9;
 
 /** @title Mortal.*/
-contract mortal {
+contract Mortal {
     /* Define variable owner of the type address*/
     address owner;
 
     /**@dev this function is executed at initialization and sets the owner of the contract.
      */
-    function mortal() { 
+    function Mortal() { 
         owner = msg.sender; 
     }
 
@@ -21,14 +21,14 @@ contract mortal {
 }
 
 /** @title Greeter.*/
-contract greeter is mortal {
+contract Greeter is Mortal {
     /* define variable greeting of the type string */
     string greeting;
 
     /**@dev This function runs when the contract is executed.
      * @param _greeting Greeting message.
      */
-    function greeter(string _greeting) public {
+    function Greeter(string _greeting) public {
         greeting = _greeting;
     }
 
