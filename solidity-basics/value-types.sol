@@ -2,6 +2,7 @@
 
 // These variables are parsed by value
 // Always copied
+// Float, double and other decimal / floating point types do not exist -> important when doing calculations!
 
 pragma solidity 0.4.9;
 
@@ -59,6 +60,8 @@ contract Value {
     //  Similar to a hash table
     mapping (string => uint) public balance;
     balance["test"] = 100;
+
+    mapping (string => mapping (string => uint)) public balance;
 
 
     // enumerations
