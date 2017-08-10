@@ -1,3 +1,7 @@
+// Contracts can inherit from other contracts
+// Including multiple inheritance
+// Only one created is created regardless the inheritance chain
+
 pragma solidity 0.4.8;
 
 contract BaseClass {

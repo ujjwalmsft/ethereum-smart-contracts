@@ -1,6 +1,6 @@
 pragma solidity 0.4.9;
 
-// import contracts, functions, objects, primitives
+// import contracts, functions, objects, primitives, interfaces
 // no default exports
 import "./coin.sol";
 
