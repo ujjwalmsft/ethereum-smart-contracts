@@ -4,3 +4,5 @@
 
 ## Introduce the Factory Pattern
 *   Contracts therefore create new instances of a given contract
+
+![Factory Pattern](https://github.com/BlockchainRepos/ethereum-smart-contracts/blob/master/resources/FactoryPattern.PNG)
