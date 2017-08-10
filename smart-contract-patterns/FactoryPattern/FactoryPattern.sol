@@ -4,9 +4,6 @@ contract FactoryPattern {
     // Documentation of a contract
     /** @title Implement factory pattern
       * @author Dr. Dolittle
-      * @dev Not all contracts should be instantiated from an external transaction 
-      * Contracts therefore create new instances of a given contract
-      * This makes sense when a contract shall be created not only once (no Singleton)
       */
 
     address[] contractsAddressesOpt1;
