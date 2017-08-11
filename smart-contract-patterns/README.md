@@ -11,7 +11,26 @@
             *   Contract can't be changed after they have been created.
 
 #   Tips
+
+## Misc
 *   Keep models as simple as possible but no simpler
 *   Interfaces tend to be useful, Inheritance tends to be evil
 *   Favor composition over inheritance
 *   Only one contract is created regardless the inheritance chain
+*   Modify contracts via methods in methods
+*   Mark untrusted contracts when interacting with such a contract
+*   Explicitely mark visibility in functions and state variables
+    *   private, public, internal...
+*   Avoid race conditions
+    *   I.e. a function can be called before the call before is finished (e.g. withdraw)
+    *   Or two function share the same state
+
+## Off chain interaction
+*   Avoid external calls when possible
+    *   Unexpected risks or errors
+    *   May execute malicious code
+    *   Can introduce blocking while other contracts may be called with a not updated state
+*   Don't make control flow assumptions after external calls
+    *   Assume that malicious code will execute if an external contract is untrusted
+*   Favor pull over push for external calls
+    *   External calls can fail accidentially or deliberately

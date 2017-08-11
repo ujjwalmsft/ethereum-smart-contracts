@@ -11,4 +11,17 @@
     *   Provides decomposition
     *   Adds opacity where needed (i.e. not everything is for everyone)
     *   Upgrading
+        *   Hubs
+            *   Unregister "old" Hub contract
+            *   Register "new" Hub contract
+            *   Update the pointers in the Spokes contracts (e.g. via a "change owner" method)
+            *   Optionally let the "old" Hub contract kill itself
+        *   Spoke
+            *   Spin up a new Spoke contract
+            *   Unregister "old" Spoke contract
+            *   Register "new" Spoke contract
+            *   Update pointer in Hub contract
+            *   Optionally let the "old" Spoke contract kill itself
     *   Branching -> implement different paths for different contexts
+
+![Hub and Spoke Pattern](https://github.com/BlockchainRepos/ethereum-smart-contracts/blob/master/resources/HubAndSpokePattern.png)
