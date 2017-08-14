@@ -7,5 +7,3 @@
 *   There are multiple options to do so e.g.
     *   Define a contract in this file or import existing contract
     *   Provide ABI and binary code of a contract
-
-![Factory Pattern](https://github.com/BlockchainRepos/ethereum-smart-contracts/blob/master/resources/FactoryPattern.PNG)

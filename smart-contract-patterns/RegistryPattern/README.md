@@ -7,5 +7,3 @@
 *   The references are kept inside of mappings or arrays
 *   These registries are generally singletons
 *   This allows us to support references and some cross contract behavior
-
-![Registry Pattern](https://github.com/BlockchainRepos/ethereum-smart-contracts/blob/master/resources/RegistryPattern.PNG)

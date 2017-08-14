@@ -10,5 +10,3 @@
 *   Create proxy contracts that keep addresses
 *   The contracts that shall use the addresses (e.g. of the owner) add a new property with the address of the proxy contract
 *   This allows an additional level of separation of concerns
-
-![Proxy Pattern](https://github.com/BlockchainRepos/ethereum-smart-contracts/blob/master/resources/ProxyPattern.PNG)

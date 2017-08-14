@@ -23,5 +23,3 @@
             *   Update pointer in Hub contract
             *   Optionally let the "old" Spoke contract kill itself
     *   Branching -> implement different paths for different contexts
-
-![Hub and Spoke Pattern](https://github.com/BlockchainRepos/ethereum-smart-contracts/blob/master/resources/HubAndSpokePattern.png)
