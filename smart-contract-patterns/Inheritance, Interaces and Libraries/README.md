@@ -1,0 +1,1 @@
+![Inheritance Pattern](https://github.com/BlockchainRepos/ethereum-smart-contracts/blob/master/resources/InterfaceInheritancePattern.png)
