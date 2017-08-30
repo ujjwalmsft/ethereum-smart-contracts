@@ -71,7 +71,7 @@ echo "var contractOutput=`solc --optimize --combined-json abi,bin,interface cont
 
 
 ### Online Compiler and then command line
-*   Go to [Ethereum Online Compiler](https://remix.ethereum.org/#version=soljson-v0.4.11+commit.68ef5810.js)
+*   Go to [Ethereum Online Compiler](https://remix.ethereum.org)
 *   Paste the code of the contract
 *   Click on `Contract details`
 *   Copy the code in `Web3 deploy`
