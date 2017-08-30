@@ -81,8 +81,11 @@ echo "var contractOutput=`solc --optimize --combined-json abi,bin,interface cont
 *   Paste the code and run it
 *   Copy and store the address and the ABI of the contract!
 
-### Via tools like Mist
+### Via Mist
 *   Important: Increase maximum fee to be provided (e.g. x 10). The provided amount is usually not enough.
+
+### Via Truffle
+*   [Deploy Smart Contract with Truffle](https://github.com/BlockchainRepos/truffle-testrpc/tree/master/truffle-deploy-smart-contract)
 
 
 ## To interact with the contract
